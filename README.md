@@ -205,12 +205,6 @@ $x_1\bullet w_1 + x_2\bullet w_2 + x_3\bullet w_3 + ... = y$
 
 ```python
 def poly_regress_predict(x,w):
-    return y_hat
-```
-
-
-```python
-def poly_regress_predict(x,w):
     y_hat = np.dot(x,w)
     return y_hat
 ```
